@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "Hash": "l3AmkYDDOC77T5+I/8h1tAUTSMapEI75iwBu+N2qTJU=",
+  "Source": "BlazorHybridTest",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest.Razor\\BlazorHybridTest.Razor.csproj",
+      "Version": 2,
+      "Source": "BlazorHybridTest.Razor",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorHybridTest\\wwwroot",
+      "Source": "BlazorHybridTest",
+      "ContentRoot": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest\\wwwroot\\css\\app.css",
+      "SourceId": "BlazorHybridTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest\\wwwroot\\index.html",
+      "SourceId": "BlazorHybridTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\BlazorHybridTest\\BlazorHybridTest\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
