@@ -4,16 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:razor="clr-namespace:WpfFix.razor;assembly=WpfFix.razor"
     xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation/blazor"
-    xmlns:razor="clr-namespace:BlazorHybridTest.Razor;assembly=BlazorHybridTest.Razor"
     Title="MainWindow"
     Width="800"
     Height="450"
     mc:Ignorable="d">
     <Grid>
-        <wpf:BlazorWebView  HostPage="wwwroot\index.html" Services="{DynamicResource services}">
+        <wpf:BlazorWebView HostPage="wwwroot\index.html" Services="{DynamicResource services}">
             <wpf:BlazorWebView.RootComponents>
-                <wpf:RootComponent ComponentType="{x:Type razor:CounterControl}" Selector="#app" />
+                <wpf:RootComponent ComponentType="{x:Type razor:Countercontrol}" Selector="#app" />
             </wpf:BlazorWebView.RootComponents>
         </wpf:BlazorWebView>
 
